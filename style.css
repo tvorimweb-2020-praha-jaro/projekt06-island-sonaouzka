@@ -120,9 +120,23 @@ h2:after {
     bottom: -5px;
 }
 
+.popisek, .popisek a {
+    color: darkgrey;
+    font-size: 11px;
+   font-family: sans-serif;
+   text-align: center;
+   line-height: 1.2em;
+}
+
+
 /* FOTOGALERIE */
-
-
+.foto .popisek {
+    font-weight: bold;
+  }
+  
+  .foto .popisek-copy {
+    font-weight: normal;
+  }
 
 
 /* PATICKA */
