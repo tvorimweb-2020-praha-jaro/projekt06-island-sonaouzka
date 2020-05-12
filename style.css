@@ -212,7 +212,27 @@ color: lightgrey;
 
 @media (min-width: 1000px) {
 
+.hlavicka {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+
+
+.perex {
+    max-width: 960px;
+    padding:20px;
+}
+
+
+.obsah {
+    width: 960px;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: -45px auto;
   
+}
 
 .galerie {
     display: flex;
@@ -222,4 +242,5 @@ color: lightgrey;
 .foto {
     flex: 1 1 calc(100% / 3);
 }
+
 }
