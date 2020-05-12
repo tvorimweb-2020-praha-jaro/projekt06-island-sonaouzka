@@ -65,7 +65,30 @@ body {
 
 /* MENU */
 
+menu ul {
+    padding: 0px;
+    margin: 0px;
+}
 
+.menu li {
+    display: block;
+    border-bottom: solid #f0eeee 1px;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;    
+}
+.menu a {
+    color: lightgrey;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: darkgrey;
+}
+
+.menu {
+    padding: 30px;
+    font-family: sans-serif;
+  }
 
 
 /* OBSAH */
