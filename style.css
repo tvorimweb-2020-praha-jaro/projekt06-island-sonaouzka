@@ -196,16 +196,30 @@ transition: transform 1s ease-out;
     transform: scale(2);
   }
 
-
+.popisek {
+text-align: right;
+color: lightgrey;
 }
 
-
-
-
-
+.popisek a {
+color: lightgrey;
+}
 
 }
 
 
 /* PC */
 
+@media (min-width: 1000px) {
+
+  
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foto {
+    flex: 1 1 calc(100% / 3);
+}
+}
