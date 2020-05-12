@@ -234,6 +234,30 @@ color: lightgrey;
   
 }
 
+.introduction {
+    display: inline-flex;
+}
+
+.uvod {
+    flex: 1 1 75%;
+    padding: 20px;
+}
+.menu {
+    flex: 1 1 25%;
+    display: block;
+    padding: 36px 0px 0px 36px;
+    margin: 0;
+  }
+
+  .menu li {
+    border: 0;
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+  }
+
+  .menu a {
+    display: block;
+  }
 
 .proc {
     padding-right: 250px;
