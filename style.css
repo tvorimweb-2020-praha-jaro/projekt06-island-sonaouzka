@@ -93,7 +93,15 @@ menu ul {
 
 /* OBSAH */
 
-
+p { 
+    padding: 0px 30px;
+}
+ 
+img {
+display: block;
+width: 100%;
+height: auto;
+}
 
 
 /* FOTOGALERIE */
