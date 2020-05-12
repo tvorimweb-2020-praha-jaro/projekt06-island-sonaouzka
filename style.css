@@ -234,6 +234,15 @@ color: lightgrey;
   
 }
 
+
+.proc {
+    padding-right: 250px;
+  }
+
+  .musitevidet1, .zmenastrany {
+    padding-left: 250px;
+  }
+
 .galerie {
     display: flex;
     flex-wrap: wrap;
