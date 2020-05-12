@@ -21,12 +21,36 @@ body {
 /* HLAVICKA */
 
 .titulek {
+    color: white;  
     font-family: 'Raleway', serif;
-}
-
+    font-size: 35px; 
+    font-weight: 600; 
+    margin: 0 0 10px 0;
+}  
+     
 .hlavicka {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/island-hlavicka.jpg);
     background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+.perex {
+    margin: 0 0 30px 0;
+    color: white;
+}
+
+.autor {
+    margin: 0 0 10px 0;
+    font-style: italic;
+    color: grey;
+}
+
+.titulek,
+.perex,
+.autor {
+    padding: 0;
+    text-align: center;
 }
 
 
