@@ -193,7 +193,7 @@ transition: transform 1s ease-out;
 
 .foto:hover .popisek {
     display: block;
-    transform: scale(2);
+    transform: scale(1);
   }
 
 .popisek {
@@ -213,15 +213,18 @@ color: lightgrey;
 @media (min-width: 1000px) {
 
 .hlavicka {
-    max-width: 100%;
-    display: flex;
     justify-content: center;
+    height: 400px;
 } 
 
+.titulek {
+    font-size: 70px;
+}
 
 .perex {
-    max-width: 960px;
-    padding:20px;
+    max-width: 900px;
+    padding: 20px;
+    justify-content: center;
 }
 
 
@@ -275,5 +278,12 @@ color: lightgrey;
 .foto {
     flex: 1 1 calc(100% / 3);
 }
+
+
+.paticka {
+    width: 960px;
+    margin: auto;
+    background-color: #f5f5f5;
+  }
 
 }
