@@ -155,18 +155,55 @@ h2:after {
 /* TABLET */
 
 @media (min-width: 500px) {
-    .menu {
-      display: flex;
-      font-size: 12px;
-      justify-content: space-around;
+.menu {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+.menu li {
+    flex: 1 1 25%;
+    border: 1px solid lightgrey;
+    border-left: none;
+    padding: 10px;
     }
 
-    .menu li {
-      flex: 1 1 25%;
-      border: 1px solid lightgrey;
-      border-left: none;
-      padding: 10px;
-    }
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.foto {
+    flex: 0 0 50%;
+    position: relative;
+    margin: 0;
+}
+
+.foto .popisek {
+position: absolute;
+display: none;
+text-align: center;
+padding: 5px;
+margin: 0;
+bottom: 0;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.3);
+transition: transform 1s ease-out;
+}
+
+.foto:hover .popisek {
+    display: block;
+    transform: scale(2);
+  }
+
+
+}
+
+
+
+
+
+
 }
 
 
