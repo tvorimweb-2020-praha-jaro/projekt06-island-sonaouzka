@@ -43,7 +43,8 @@ body {
 .autor {
     margin: 0 0 10px 0;
     font-style: italic;
-    color: grey;
+    color: lightgrey;
+    position: relative;
 }
 
 .titulek,
@@ -53,6 +54,14 @@ body {
     text-align: center;
 }
 
+.autor::before {
+    position: absolute;
+    content: "";
+    left: 43%;
+    top: -10px;
+    width: 13%;
+    border: 1px solid lightgrey;
+}
 
 /* MENU */
 
